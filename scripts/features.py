@@ -9,7 +9,7 @@ import re
 
 warnings.filterwarnings('ignore')
 
-def build_interaction_graph(qc):
+def build_graph(qc):
     """
     Builds graph where nodes are qubits and edges are 2-qubit gates.
     """
@@ -94,7 +94,7 @@ def extract_features(qasm_path):
     features['n_2q_gates'] = sum(ops[k] for k in ops if k in ['cx', 'cz', 'swap', 'ecr', 'rzz'])
     features['n_1q_gates'] = features['n_gates'] - features['n_2q_gates']
     
-    G = build_interaction_graph(qc)
+    G = build_graph(qc)
     
     features['treewidth_heuristic'] = get_treewidth(G)
     features['avg_degree'] = np.mean([d for _, d in G.degree()]) if G.number_of_nodes() > 0 else 0
