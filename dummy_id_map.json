@@ -3,7 +3,51 @@
     "entries": [
         {
             "id": "H001",
-            "qasm_file": "ae_indep_qiskit_20.qasm"
+            "qasm_file": "ae_indep_qiskit_130.qasm"
+        },
+        {
+            "id": "H002",
+            "qasm_file": "dj_indep_qiskit_30.qasm"
+        },
+        {
+            "id": "H003",
+            "qasm_file": "ghz_indep_qiskit_30.qasm"
+        },
+        {
+            "id": "H004",
+            "qasm_file": "ghz_indep_qiskit_130.qasm"
+        },
+        {
+            "id": "H005",
+            "qasm_file": "grover-noancilla_indep_qiskit_11.qasm"
+        },
+        {
+            "id": "H006",
+            "qasm_file": "grover-v-chain_indep_qiskit_17.qasm"
+        },
+        {
+            "id": "H007",
+            "qasm_file": "portfolioqaoa_indep_qiskit_17.qasm"
+        },
+        {
+            "id": "H008",
+            "qasm_file": "portfoliovqe_indep_qiskit_18.qasm"
+        },
+        {
+            "id": "H009",
+            "qasm_file": "qft_indep_qiskit_15.qasm"
+        },
+        {
+            "id": "H010",
+            "qasm_file": "qftentangled_indep_qiskit_30.qasm"
+        },
+        {
+            "id": "H011",
+            "qasm_file": "qpeexact_indep_qiskit_30.qasm"
+        },
+        {
+            "id": "H012",
+            "qasm_file": "wstate_indep_qiskit_130.qasm"
         }
     ]
 }

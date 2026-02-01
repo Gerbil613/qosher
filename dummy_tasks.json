@@ -1,0 +1,65 @@
+{
+    "schema": "iqhack_holdout_tasks_v1",
+    "tasks": [
+        {
+            "id": "H001",
+            "processor": "CPU",
+            "precision": "single"
+        },
+        {
+            "id": "H002",
+            "processor": "GPU",
+            "precision": "double"
+        },
+        {
+            "id": "H003",
+            "processor": "GPU",
+            "precision": "single"
+        },
+        {
+            "id": "H004",
+            "processor": "CPU",
+            "precision": "double"
+        },
+        {
+            "id": "H005",
+            "processor": "CPU",
+            "precision": "single"
+        },
+        {
+            "id": "H006",
+            "processor": "GPU",
+            "precision": "double"
+        },
+        {
+            "id": "H007",
+            "processor": "GPU",
+            "precision": "single"
+        },
+        {
+            "id": "H008",
+            "processor": "CPU",
+            "precision": "double"
+        },
+        {
+            "id": "H009",
+            "processor": "CPU",
+            "precision": "single"
+        },
+        {
+            "id": "H010",
+            "processor": "GPU",
+            "precision": "double"
+        },
+        {
+            "id": "H011",
+            "processor": "GPU",
+            "precision": "single"
+        },
+        {
+            "id": "H012",
+            "processor": "CPU",
+            "precision": "double"
+        }
+    ]
+}
